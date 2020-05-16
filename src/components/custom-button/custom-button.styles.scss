@@ -4,7 +4,7 @@
 	height: 50px;
 	letter-spacing: 0.5px;
 	line-height: 50px;
-	padding: 0 35px 0 35px;
+	padding: 0 5px 0 5px;
 	font-size: 15px;
 	background-color: black;
 	color: white;
@@ -21,12 +21,13 @@
 	}
 
 	&.google-sign-in {
-		background-color: #4285f4;
+		background-color: #584fc1;
 		color: white;
 
 		&:hover {
-			background-color: #0a5ee4;
-			border: none;
+			background-color: white;
+			color: black;
+			border: 1px solid black;
 		}
 	}
 }
